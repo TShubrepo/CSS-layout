@@ -17,13 +17,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
   padding: 2rem 0;
-  position: fi xed;
   top: 0;
   width: 100vw;
   background-color: white;
   z-index: 1000;
-  position: fixed;
 }
 .navlink {
   display: flex;
@@ -34,6 +33,9 @@
   list-style: none;
   padding: 0 20px;
 
+}
+.header a ul {
+  position: fixed;
 }
 .navlink {
   display: flex;
@@ -47,13 +49,13 @@
 }
 #Career,
 #Departments {
-  color: #ababab;
+color: #ababab;
 }
 .head-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 10px;
   margin: 50px;
 }
 .headertext {
@@ -69,12 +71,12 @@
   font-size: 16px;
   display: flex;
   justify-content: center;
-  flex-wrap: ;
+  flex-wrap: nowrap;
   margin: 10px;
   align-items: center;
   padding: 30px;
-  padding-left: 200px;
-  padding-right: 90px;
+  padding-left: 100px;
+  padding-right: 80px;
   width: 100%;
   justify-content: space-between;
 }
@@ -84,16 +86,17 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 10px;
 }
 /* Section 2 */
 .cares {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-bottom: 10px;
   padding: 30px; 
 }
-#cares1, #cares2, #cares3 {
+.cares1, .cares2, .cares3 {
   width: 300px;
   padding: 30px 25px;
   text-align: center;
@@ -103,7 +106,7 @@
   border-radius: 20px;
   justify-content: space-between;
 }
-#cares1 {
+.cares1 {
   background-color: #00ccb1;
   border-radius: 10px;
   display: flex;
@@ -112,7 +115,7 @@
   justify-content: space-between;
   height: 345px;
 }
-#cares2 {
+.cares2 {
   background-color: #3D83DF;
   border-radius: 10px;
   display: flex;
@@ -121,7 +124,7 @@
   justify-content: space-between;
   height: 345px;
 }
-#cares3 {
+.cares3 {
   background-color: #1B2734;
   border-radius: 10px;
   display: flex;
@@ -176,6 +179,7 @@
   color: #fff;
   margin: 0.3em 0;
   font-family: Work Sans, Arial, sans-serif;
+  text-align: center;
 }
 .cares img {
   width: 25px;
